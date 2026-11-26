@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NordWest: автосервис в Челябинске, Тополиная улица, 13</title>
+    <meta name="description" content="NordWest, технический центр в Шершнях (Челябинск): диагностика на вибростенде, развал-схождение, ТО, ремонт ходовой и тормозов. Ежедневно с 09:00 до 20:00." />
+    <meta name="theme-color" content="#C0462B" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="NordWest" />
+    <meta property="og:title" content="NordWest: ремонт и обслуживание автомобилей в Челябинске" />
+    <meta property="og:description" content="Диагностика на вибростенде, развал-схождение на 3D-стенде, ТО и ремонт. Тополиная улица, 13. Ежедневно с 09:00 до 20:00." />
+    <meta property="og:image" content="photos/zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "NordWest, технический центр по ремонту и обслуживанию автомобилей",
+        "description": "Диагностика на вибростенде, развал-схождение, техническое обслуживание, ремонт ходовой части и тормозной системы.",
+        "image": "photos/zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg",
+        "telephone": ["+79222097272", "+79514300488"],
+        "email": "yumadilovsr@yandex.ru",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Тополиная улица, 13",
+          "addressLocality": "Челябинск",
+          "addressRegion": "Челябинская область",
+          "postalCode": "454902",
+          "addressCountry": "RU"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 55.156894, "longitude": 61.304995 },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "537", "reviewCount": "395", "bestRating": "5" },
+        "sameAs": ["https://vk.com/nordwestcar74"]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">К содержимому</a>
+
+    <!-- шапка -->
+    <header class="header" id="top">
+      <div class="wrap header__row">
+        <a class="logo" href="#top" aria-label="NordWest, на главную">
+          <span class="logo__mark">NW</span>
+          <span class="logo__text">NordWest<small>технический центр</small></span>
+        </a>
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <a href="#about">О центре</a>
+          <a href="#prices">Услуги и цены</a>
+          <a href="#why">Преимущества</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#gallery">Фото</a>
+          <a href="#contacts">Контакты</a>
+          <a class="nav__phone" href="tel:+79222097272">+7 922 209-72-72</a>
+        </nav>
+        <div class="header__tools">
+          <button class="btn btn--ghost btn--sm" type="button" id="themeToggle" aria-pressed="false">Тёмная тема</button>
+          <a class="btn btn--primary btn--sm header__cta" href="tel:+79222097272">Записаться</a>
+          <button class="burger" type="button" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- hero -->
+      <section class="hero">
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Технический центр NordWest</p>
+            <h1>Ремонт и запчасти в одном месте</h1>
+            <p class="hero__lead">Вибростенд, развал-схождение, ТО и ремонт ходовой. Принимаем ежедневно с 9:00 до 20:00, запись по телефону.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="tel:+79222097272">Записаться</a>
+              <a class="btn btn--outline" href="#prices">Смотреть цены</a>
+            </div>
+          </div>
+          <figure class="hero__media media" data-img="hero">
+            <img
+              src="photos/zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg"
+              alt="Здание автосервиса NordWest из красного кирпича с белым автомобилем у входа"
+              width="1200"
+              height="900"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- о центре -->
+      <section class="section" id="about">
+        <div class="wrap about__grid">
+          <figure class="about__media media reveal" data-img="about">
+            <img
+              src="photos/belyy_vnedorozhnik_na_podemnike_v_avtoservise.jpg"
+              alt="Белый внедорожник на подъёмнике в мастерской NordWest"
+              width="1200"
+              height="900"
+              loading="lazy"
+            />
+          </figure>
+          <div class="about__copy reveal">
+            <h2>Находим причину, а не лечим симптомы</h2>
+            <p>NordWest работает в Шершнях на Тополиной улице. Диагностируем подвеску на вибростенде, выставляем геометрию на 3D-стенде, меняем масло и жидкости, ремонтируем ходовую, тормоза и электрику.</p>
+            <p>Принимаем легковые машины, кроссоверы и внедорожники. Перед работой объясняем, что нашли, показываем снятые детали и предлагаем альтернативу.</p>
+            <dl class="stats">
+              <div><dt>рейтинг в 2ГИС</dt><dd><span data-count="4.8" data-decimals="1">4,8</span></dd></div>
+              <div><dt>оценок</dt><dd><span data-count="537">537</span></dd></div>
+              <div><dt>отзывов</dt><dd><span data-count="395">395</span></dd></div>
+              <div><dt>открыты каждый день</dt><dd>9-20</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- услуги и цены -->
+      <section class="section section--tint" id="prices">
+        <div class="wrap">
+          <div class="section__head reveal">
+            <h2>Услуги и цены</h2>
+            <p>Цены из карточки в 2ГИС, указано «от». Точную сумму назовём по телефону.</p>
+          </div>
+
+          <div class="tabs reveal" role="tablist" aria-label="Категории услуг">
+            <button class="tab is-active" role="tab" id="tab-diag" aria-controls="panel-diag" aria-selected="true" type="button">Диагностика</button>
+            <button class="tab" role="tab" id="tab-service" aria-controls="panel-service" aria-selected="false" tabindex="-1" type="button">Обслуживание</button>
+            <button class="tab" role="tab" id="tab-chassis" aria-controls="panel-chassis" aria-selected="false" tabindex="-1" type="button">Ходовая и тормоза</button>
+            <button class="tab" role="tab" id="tab-electric" aria-controls="panel-electric" aria-selected="false" tabindex="-1" type="button">Электрика и климат</button>
+          </div>
+
+          <div class="panel is-active" role="tabpanel" id="panel-diag" aria-labelledby="tab-diag">
+            <article class="price">
+              <div class="price__top"><h3>Диагностика подвески на вибростенде</h3><span class="price__sum">2 500 ₽</span></div>
+              <p>Стенд имитирует дорожную нагрузку и показывает слабые узлы: амортизаторы, пружины, рычаги, сайлентблоки.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Компьютерная диагностика</h3><span class="price__sum">от 1 850 ₽</span></div>
+              <p>Считываем ошибки двигателя, трансмиссии, ABS и подушек безопасности. Выдаём понятный отчёт.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Диагностика электрооборудования</h3><span class="price__sum">от 1 200 ₽</span></div>
+              <p>Проверяем стартер, генератор, проводку, свет и блоки управления мультиметром и сканером.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Развал-схождение на 3D-стенде</h3><span class="price__sum">от 1 800 ₽</span></div>
+              <p>Выставляем углы по заводским параметрам. За две оси легкового авто или кроссовера: 2 600 ₽.</p>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-service" aria-labelledby="tab-service" hidden>
+            <article class="price">
+              <div class="price__top"><h3>Замена масла в двигателе</h3><span class="price__sum">от 3 520 ₽</span></div>
+              <p>Подбираем масло под мотор, меняем фильтр, проверяем уплотнители. Без подтёков и недолива.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Замена ремня ГРМ</h3><span class="price__sum">от 3 500 ₽</span></div>
+              <p>Работаем по регламенту, выставляем метки, проверяем ролики, натяжитель и помпу.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Замена свечей зажигания</h3><span class="price__sum">от 1 920 ₽</span></div>
+              <p>Подбираем по каталогу, затягиваем динамометрическим ключом, осматриваем старые свечи.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Масло в АКПП</h3><span class="price__sum">от 2 500 ₽</span></div>
+              <p>Частичная или аппаратная замена. Подскажем, что лучше для вашей модели.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Воздушный фильтр</h3><span class="price__sum">от 250 ₽</span></div>
+              <p>Оригинальные или сертифицированные аналоги, проверка корпуса и уплотнений.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Салонный фильтр</h3><span class="price__sum">от 250 ₽</span></div>
+              <p>Снимем старый, очистим нишу, поставим новый под вашу марку.</p>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-chassis" aria-labelledby="tab-chassis" hidden>
+            <article class="price">
+              <div class="price__top"><h3>Ремонт рулевой рейки</h3><span class="price__sum">от 7 500 ₽</span></div>
+              <p>Гидравлические и электрические рейки. После ремонта проверяем на стенде и на автомобиле.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Замена амортизаторов</h3><span class="price__sum">от 2 100 ₽</span></div>
+              <p>Проверяем опоры, пыльники и пружины, соблюдаем моменты затяжки.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Сайлентблок рычага</h3><span class="price__sum">от 1 920 ₽</span></div>
+              <p>Запрессовываем гидравлическим прессом, без перекосов, и проверяем на люфты.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Тормозные колодки</h3><span class="price__sum">от 1 920 ₽</span></div>
+              <p>Проверяем диски, направляющие и тормозную жидкость, делаем притирку и тест торможения.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Тормозные диски</h3><span class="price__sum">от 2 400 ₽</span></div>
+              <p>Измеряем биение и остаточную толщину, проверяем суппорты и шланги.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Шиномонтаж</h3><span class="price__sum">от 2 220 ₽</span></div>
+              <p>Монтаж, демонтаж и балансировка. Цена зависит от диаметра колёс.</p>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-electric" aria-labelledby="tab-electric" hidden>
+            <article class="price">
+              <div class="price__top"><h3>Ремонт генератора</h3><span class="price__sum">от 3 800 ₽</span></div>
+              <p>Проверяем диодный мост, регулятор, щётки и подшипники на стенде под нагрузкой.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Ремонт стартера</h3><span class="price__sum">3 200 ₽</span></div>
+              <p>Проверяем реле, щётки, бендикс и обмотки, восстанавливаем или меняем узлы.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Заправка кондиционера</h3><span class="price__sum">от 3 500 ₽</span></div>
+              <p>Ищем утечки, удаляем воздух и влагу, заливаем фреон в точном объёме.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Обработка салона</h3><span class="price__sum">от 900 ₽</span></div>
+              <p>Убираем микрофлору и запахи, обрабатываем сиденья, потолок, коврики и вентиляцию.</p>
+            </article>
+            <article class="price">
+              <div class="price__top"><h3>Установка сигнализации</h3><span class="price__sum">от 10 500 ₽</span></div>
+              <p>Подключаем к CAN-шине без повреждения штатных жгутов, настраиваем датчики и брелок.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- преимущества -->
+      <section class="section" id="why">
+        <div class="wrap">
+          <div class="section__head reveal">
+            <p class="eyebrow">Почему нас рекомендуют</p>
+            <h2>Быстро, понятно и без лишних работ</h2>
+          </div>
+          <div class="bento">
+            <article class="cell cell--accent reveal">
+              <h3>Вибростенд находит скрытые поломки</h3>
+              <p>Клиенты приезжают со стуком в подвеске, и причину находят за одну диагностику, без разборки наугад.</p>
+            </article>
+            <figure class="cell cell--photo media reveal" data-img="why">
+              <img
+                src="photos/avtomobil_maserati_nahoditsya_na_obsluzhivanii_v_avtoservise.jpg"
+                alt="Maserati на подъёмнике во время обслуживания"
+                width="1200"
+                height="900"
+                loading="lazy"
+              />
+            </figure>
+            <article class="cell cell--surface reveal">
+              <h3>Объясняем и показываем</h3>
+              <p>Говорим, что нашли, показываем старые детали и предлагаем альтернативу.</p>
+            </article>
+            <article class="cell cell--surface reveal">
+              <h3>Находим время сразу</h3>
+              <p>В отзывах пишут, что после звонка принимали в тот же день.</p>
+            </article>
+            <article class="cell cell--dark reveal">
+              <h3>Берём крупные машины</h3>
+              <p>Сход-развал на Infiniti QX80, обслуживание Jaguar и Maserati.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- отзывы -->
+      <section class="section section--tint" id="reviews">
+        <div class="wrap">
+          <div class="section__head reveal">
+            <h2>Что пишут клиенты</h2>
+            <p>4,8 из 5 по 537 оценкам в 2ГИС.</p>
+          </div>
+          <div class="slider reveal">
+            <ul class="slider__track" id="sliderTrack" tabindex="0" aria-label="Отзывы клиентов">
+              <li class="quote">
+                <blockquote>Адекватные цены, не стараются накрутить побольше. Все честно.</blockquote>
+                <p class="quote__by"><strong>Кристина З.</strong>2ГИС, 2026</p>
+              </li>
+              <li class="quote">
+                <blockquote>Здесь не возникло вопросов, всё сделали. Чисто, аккуратно, быстро, приветливо.</blockquote>
+                <p class="quote__by"><strong>Анастасия Норберт</strong>2ГИС, 2026</p>
+              </li>
+              <li class="quote">
+                <blockquote>Сделали сход-развал, положение руля программно обнулили, теперь машина едет ровно и чётко.</blockquote>
+                <p class="quote__by"><strong>Юрий Юрий</strong>2ГИС, 2026</p>
+              </li>
+              <li class="quote">
+                <blockquote>Беспокоил стук, сделали диагностику на вибростенде, нашли причину, советую.</blockquote>
+                <p class="quote__by"><strong>Альберт Ялалов</strong>2ГИС, 2026</p>
+              </li>
+              <li class="quote">
+                <blockquote>За долгие годы владения автомобилем я впервые искренне осталась довольна автосервисом.</blockquote>
+                <p class="quote__by"><strong>Пользователь 2ГИС</strong>2ГИС, 2026</p>
+              </li>
+            </ul>
+            <div class="slider__bar">
+              <a class="link" href="https://2gis.ru/chelyabinsk/firm/70000001044461167/tab/reviews" target="_blank" rel="noopener">Все отзывы в 2ГИС</a>
+              <div class="slider__btns">
+                <button class="icon-btn" type="button" id="prevReview" aria-label="Предыдущий отзыв">←</button>
+                <button class="icon-btn" type="button" id="nextReview" aria-label="Следующий отзыв">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- галерея -->
+      <section class="section" id="gallery">
+        <div class="wrap">
+          <div class="section__head reveal">
+            <h2>Наш центр на фото</h2>
+          </div>
+          <div class="mosaic">
+            <figure class="mosaic__item mosaic__item--big media reveal" data-img="gal-1">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: белый внедорожник Toyota на подъёмнике">
+                <img
+                  src="photos/belyy_vnedorozhnik_toyota_na_podemnike_v_avtomasterskoy.jpg"
+                  alt="Белый внедорожник Toyota на подъёмнике в мастерской"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+            <figure class="mosaic__item media reveal" data-img="gal-2">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: чёрный автомобиль на подъёмнике">
+                <img
+                  src="photos/chernyy_avtomobil_na_podemnike_v_avtoservise.jpg"
+                  alt="Чёрный автомобиль на подъёмнике в автосервисе"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+            <figure class="mosaic__item media reveal" data-img="gal-3">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: белый внедорожник в мастерской">
+                <img
+                  src="photos/belyy_vnedorozhnik_na_avtomobilnom_podemnike_v_avtomastersko.jpg"
+                  alt="Белый внедорожник на автомобильном подъёмнике в мастерской"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+            <figure class="mosaic__item media reveal" data-img="gal-4">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: Maserati на обслуживании">
+                <img
+                  src="photos/avtomobil_maserati_nahoditsya_na_obsluzhivanii_v_avtoservise.jpg"
+                  alt="Maserati на обслуживании в автосервисе"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+            <figure class="mosaic__item media reveal" data-img="gal-5">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: белый внедорожник в автосервисе">
+                <img
+                  src="photos/belyy_vnedorozhnik_na_podemnike_v_avtoservise.jpg"
+                  alt="Белый внедорожник на подъёмнике в автосервисе"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+            <figure class="mosaic__item mosaic__item--wide media reveal" data-img="gal-6">
+              <button type="button" class="mosaic__btn" data-full aria-label="Открыть фото: здание автосервиса из красного кирпича">
+                <img
+                  src="photos/zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg"
+                  alt="Здание автосервиса из красного кирпича на Тополиной улице"
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                />
+              </button>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- контакты -->
+      <section class="section section--tint" id="contacts">
+        <div class="wrap contacts__grid">
+          <div class="contacts__info reveal">
+            <h2>Приезжайте или звоните</h2>
+            <ul class="info">
+              <li><span>Адрес</span><p>Тополиная улица, 13, Шершни, Центральный район, Челябинск, 454902</p></li>
+              <li><span>Телефоны</span><p><a href="tel:+79222097272">+7 922 209-72-72</a><br /><a href="tel:+79514300488">+7 951 430-04-88</a></p></li>
+              <li><span>Режим работы</span><p>Ежедневно с 09:00 до 20:00</p></li>
+              <li><span>Почта</span><p><a href="mailto:yumadilovsr@yandex.ru">yumadilovsr@yandex.ru</a></p></li>
+              <li><span>Мессенджеры</span><p><a href="https://vk.com/nordwestcar74" target="_blank" rel="noopener">ВКонтакте</a><br /><a href="https://t.me/+79222097272" target="_blank" rel="noopener">Telegram</a></p></li>
+            </ul>
+          </div>
+          <div class="contacts__map reveal">
+            <iframe
+              title="Карта: Тополиная улица, 13, Челябинск"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=61.2930%2C55.1500%2C61.3170%2C55.1640&amp;layer=mapnik&amp;marker=55.156894%2C61.304995"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <form class="form reveal" id="leadForm" novalidate>
+            <div class="form__head">
+              <h3>Оставьте заявку</h3>
+              <p>Напишем или перезвоним в рабочее время.</p>
+            </div>
+            <div class="field">
+              <label for="fName">Ваше имя</label>
+              <input id="fName" name="name" type="text" autocomplete="name" placeholder="Например, Сергей" required />
+              <p class="field__err" id="errName" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="fPhone">Телефон</label>
+              <input id="fPhone" name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00" required />
+              <p class="field__err" id="errPhone" role="alert"></p>
+            </div>
+            <div class="field field--wide">
+              <label for="fMsg">Что случилось с автомобилем</label>
+              <textarea id="fMsg" name="message" rows="3" placeholder="Марка, модель и что беспокоит"></textarea>
+            </div>
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit">Записаться</button>
+              <a class="btn btn--outline" href="https://vk.com/nordwestcar74" target="_blank" rel="noopener">Написать ВКонтакте</a>
+            </div>
+            <p class="form__ok" id="formOk" role="status" hidden>Почтовая программа открылась. Если письмо не появилось, позвоните нам: +7 922 209-72-72.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- подвал -->
+    <footer class="footer">
+      <div class="wrap footer__row">
+        <div>
+          <p class="footer__brand">NordWest</p>
+          <p class="footer__text">Технический центр по ремонту и обслуживанию автомобилей</p>
+        </div>
+        <div>
+          <p class="footer__text">Тополиная улица, 13, Челябинск</p>
+          <p class="footer__text">Ежедневно с 09:00 до 20:00</p>
+        </div>
+        <div>
+          <p class="footer__text"><a href="tel:+79222097272">+7 922 209-72-72</a></p>
+          <p class="footer__text"><a href="https://vk.com/nordwestcar74" target="_blank" rel="noopener">ВКонтакте</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Просмотр фото">
+      <button class="lightbox__close" type="button" id="lightboxClose" aria-label="Закрыть">Закрыть</button>
+      <img id="lightboxImg" src="" alt="" />
+    </dialog>
+
+    <script type="application/json" id="images-manifest">
+      {"images": [
+        {"id": "hero", "file": "zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg", "caption": "Здание автосервиса из красного кирпича"},
+        {"id": "about", "file": "belyy_vnedorozhnik_na_podemnike_v_avtoservise.jpg", "caption": "Белый внедорожник на подъёмнике"},
+        {"id": "why", "file": "avtomobil_maserati_nahoditsya_na_obsluzhivanii_v_avtoservise.jpg", "caption": "Maserati на обслуживании"},
+        {"id": "gal-1", "file": "belyy_vnedorozhnik_toyota_na_podemnike_v_avtomasterskoy.jpg", "caption": "Toyota на подъёмнике"},
+        {"id": "gal-2", "file": "chernyy_avtomobil_na_podemnike_v_avtoservise.jpg", "caption": "Чёрный автомобиль на подъёмнике"},
+        {"id": "gal-3", "file": "belyy_vnedorozhnik_na_avtomobilnom_podemnike_v_avtomastersko.jpg", "caption": "Белый внедорожник в мастерской"},
+        {"id": "gal-4", "file": "avtomobil_maserati_nahoditsya_na_obsluzhivanii_v_avtoservise.jpg", "caption": "Maserati на обслуживании"},
+        {"id": "gal-5", "file": "belyy_vnedorozhnik_na_podemnike_v_avtoservise.jpg", "caption": "Белый внедорожник в автосервисе"},
+        {"id": "gal-6", "file": "zdanie_avtoservisa_iz_krasnogo_kirpicha_s_priparkovannym_bel.jpg", "caption": "Здание автосервиса"}
+      ]}
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
